@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Tiro Devanagari Marathi', serif;
-    color: rgb(255, 145, 0);
+    color: #0D3669;
     font-weight: bold;
 }
 
@@ -20,4 +20,15 @@ footer {
 
 h3 {
     text-align: center;
+}
+
+h5 {
+    color: black;
+}
+
+.cuadro {
+    border: 2px solid #0D3669;
+    border-radius: 5%;
+    background: #E4D226;
+    opacity: 70%;
 }
