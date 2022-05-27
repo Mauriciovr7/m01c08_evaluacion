@@ -1,6 +1,15 @@
 body {
     background-image: url(https://media.biobiochile.cl/wp-content/uploads/2020/10/vina-del-mar-y-valparaiso-dejan-cuarentena-este-martes-el-balance-tras-4-meses-bajo-confinamiento-scaled.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    color: yellow;
+    font-weight: bold;
+}
+
+header {
+    margin-top: 6%;
+    margin-bottom: 22%;
 }
 
 footer {
