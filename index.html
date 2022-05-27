@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <!-- vista responsive: mobil y desktop -->
+    <!-- nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-4">
         <div class="container-fluid">
             <a class="navbar-brand">Viña del Mar</a>
@@ -46,17 +46,32 @@
         </div>
     </nav>
 
+    <!-- header -->
     <header>
         <div class="row">
             <div class="col-12 col-md-4 offset-md-4">
                 <h3>Viña del Mar</h3>
-                <img src="https://www.remax.cl/AreaGuideImages/1028/2620/47872/7896641/vinavalpo2.jpg" alt=""
-                    width="360">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.remax.cl/AreaGuideImages/1028/2620/47872/7896641/vinavalpo2.jpg"
+                                class="d-block w-100" alt="reloj">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.hotelcerrocastillo.com/wp-content/uploads/2017/04/hcc_castillo_wulff.jpg"
+                                class="d-block w-100" alt="castillo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.hotelcerrocastillo.com/wp-content/uploads/2017/04/hcc_hotel_miramar.jpg"
+                                class="d-block w-100" alt="miramar">
+                        </div>
+                    </div>
+                </div>                
             </div>
-        </div>
+        </div>    
     </header>
 
-
+    <!-- historia -->
     <section id="historia" class="mt-5">
         <div class="row p-3">
             <div class="col-12 col-md-6 offset-md-2 cuadro">
@@ -84,11 +99,17 @@
             </div>
             <div class="col-12 col-md-6 offset-md-2 pt-3 pb-5 cuadro">
                 <h6>Cerro Castillo</h6>
-                <p>El Cerro Castillo, nacido con el Corte de Viña del Mar en el año 1855, permaneció como un macizo aislado y vigilante sobre la ciudad naciente, con su importante Fuerte Callao, constituyéndose en el sentido literal del termino, como una verdadera acrópolis (ciudad en lo alto).</p>
+                <p>El Cerro Castillo, nacido con el Corte de Viña del Mar en el año 1855, permaneció como un macizo
+                    aislado y vigilante sobre la ciudad naciente, con su importante Fuerte Callao, constituyéndose en el
+                    sentido literal del termino, como una verdadera acrópolis (ciudad en lo alto).</p>
+                <img class=""
+                    src="https://www.hotelcerrocastillo.com/wp-content/uploads/2017/04/hcc_monumento_a_khalil_gibran.jpg"
+                    alt="" width="320">
             </div>
         </div>
     </section>
 
+    <!-- contacto -->
     <section id="contacto" class="mt-5">
         <div class="row">
             <div class="col-12 col-md-4 offset-md-4 cuadro">
@@ -117,10 +138,9 @@
 
             </div>
         </div>
-
     </section>
 
-
+    <!-- mapa -->
     <section id="mapa" class="mt-5">
         <div class="row p-3">
             <div class="col-12 col-md-3 cuadro">
@@ -144,11 +164,10 @@
                     width="340" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
         </div>
-
     </section>
 
+    <!-- footer -->
     <footer>2022 - Mauricio Vera</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
