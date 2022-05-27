@@ -5,8 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- vista responsive: mobil y desktop -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-4">
+		<div class="container-fluid">
+			<a class="navbar-brand">Viña del Mar</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#historia">Historia</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./noticias.html">Noticias</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#contacto">Contacto</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#mapa">Mapa</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+    <header>
+        <div class="row">
+            <div class="col-12 col-md-4 offset-md-4">
+                <h3>Reloj de Flores</h3>
+                <img src="https://www.remax.cl/AreaGuideImages/1028/2620/47872/7896641/vinavalpo2.jpg" alt="" width="500">
+            </div>
+        </div>
+    </header>
+
+
+    <section id="historia">Historia</section>
+
+    <section id="contacto">
+        <form class="p-4">
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input type="password" class="form-control" id="exampleInputPassword1"
+                    placeholder="Ingrese su nombre">
+            </div>
     
+            <div class="mb-3">
+                <label class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Ingrese su email">
+                <div id="emailHelp" class="form-text">No será compartido</div>
+            </div>
+    
+            <div class="mb-3">
+                <h6>Mensaje</h6>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                    placeholder="Ingrese mensaje aquí"></textarea>
+            </div>
+    
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    
+    </section>
+
+
+    <section id="mapa">
+        <h1>Direcciones</h1>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>Teléfonos</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107069.89544979451!2d-71.60029570392047!3d-33.005509344043055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de84ead41255%3A0x8e5fde76df3d413f!2zVmnDsWEgZGVsIE1hciwgVmFscGFyYcOtc28!5e0!3m2!1ses!2scl!4v1653662291443!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-12 col-md-4">
+                <p>Direcciones</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>2022 - Mauricio</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
